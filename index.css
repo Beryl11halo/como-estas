@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0
+    ;
+}
+
+.sibodi {
+    background-color:#081849;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 12px;
+}
+
+.judul {
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.logo {
+    display: flex;
+}
+
+#main-div{
+    display: flex;
+    background:linear-gradient(rgba(245, 75, 24, 0.2), #081849) , url(Home_pics/music_bg3.jpg);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-size: cover;
+    background-position: center;
+  }
+  main{
+    width: 75%; }
+  
+  .head{
+      padding-left: 35%;
+      margin: 12px;
+      font-weight: 500;
+      font-size: 40px;
+      color:white; 
+  }
+  .content{
+      display: flex;
+    margin-left: 32px;
+    margin-right: 14px;
+      flex-wrap:wrap;
+      width: 100%;
+  }
+
+  .cover{
+    margin-right: 20px;
+     border:2px solid white;
+     border-radius: 20px;
+     overflow: hidden;
+     transition: 0.5s ease-in-out;
+}
+.cover img{
+	width: 100%;
+	height: 100%;
+}
+
+.walawe div:hover { 
+    opacity: 1;
+    transform: scale(1.1);
+}
+
