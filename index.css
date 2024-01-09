@@ -92,6 +92,88 @@
     overflow: hidden;
 }
 
+.playson:hover {
+    box-shadow: 0 0 20px 2px black;
+}
 .son-imae img {
     width: 30%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.son-imae {
+    margin: 10px;
+    overflow: hidden;
+}
+
+.playson h3 {
+        text-align: center;
+        color: black;
+        font-family: sans-serif;
+        margin-left: 100px;
+}
+
+.playbtn {
+    display: none; 
+    position: absolute;
+    padding-left: 246px;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.playson:hover .playbtn{
+    display: block;
+}
+
+.artistpic {
+    border: 2px solid black;
+    height: 165px;
+    width: 160px;
+    border-radius: 50%;
+    margin-left: 100px;    
+}
+
+.artistpic1 {
+    border: 2px solid black;
+    height: 165px;
+    width: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 100px;    
+}
+
+.artistpic a {
+    text-decoration: none;
+} 
+
+.artistpic a:hover {
+    text-decoration: underline;
+}
+
+.artistpic img {
+    width: 100%;
+    height: 100%;
+}
+
+.artistdetail span {
+    color: pink;
+    padding-left: 10px;
+    margin-top: -200px  !important;
+}
+
+.artistpic1 a {
+    text-decoration: none;
+} 
+
+.artistpic1 a:hover {
+    text-decoration: underline;
+}
+
+.artistpic1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#station {
+    margin-top: 100px;
 }
